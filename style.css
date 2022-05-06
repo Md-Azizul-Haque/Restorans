@@ -1,0 +1,741 @@
+body{
+    margin: 0px;
+    font-family: 'Playball', cursive;
+}
+.nav-area{
+  padding: 0;
+  margin: 0;
+  padding: auto;
+  
+  background-color: #1b1b1be7;
+}
+.nav-img{
+  padding: 0;
+  margin: 0;
+  height: 80px;
+}
+.nav-color a{
+    
+    color: rgba(0, 0, 0, 0.904)
+    
+}
+.slide_text{
+    font-size: 60px;
+    font-style: italic;
+    letter-spacing: 2px;
+    position: relative;
+    width: 100%;
+    margin-bottom: 10px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    letter-spacing: 3px;
+    padding: 10px 0;
+    font-family: 'Playball', cursive;
+    padding-bottom: 20px;
+    padding-right: 550px;
+}
+.slide-p{
+    font-family: 'Source Sans Pro', sans-serif;
+    color: rgb(245, 227, 205);;
+    padding-bottom: 30px;
+    padding-right: 450px;
+    font-size: 22px;
+}
+.discover-part{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: rgba(127, 255, 212, 0.171);
+    padding: 30px;
+    padding-bottom: 30px;
+}
+.discover-text-h1{
+    text-align: center;
+    padding-top: 30px;
+}
+.discover-text-h3{
+    text-align: center;
+    padding: 0px;
+}
+.discover-img{
+    margin-top: 70px;
+    padding-left: 30px;
+    padding-right: 20px;
+}
+.discover-text-p{
+    text-align: center;
+    padding: 10px 30px;
+}
+.parallax {
+    /* The image used */
+    background-image: url("images/pasha-42.jpg");
+  
+    /* Set a specific height */
+    min-height: 500px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+.parallax-p{
+    height:500px;
+    background-color:rgba(17, 16, 16, 0.253);
+    font-size:36px;
+    text-align: center;
+    padding: 90px 30px;
+    color: rgb(233, 230, 227);
+}
+.parallax-2nd{
+    /* The image used */
+    background-image: url("images/8.jpg");
+  
+    /* Set a specific height */
+    min-height: 600px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+.team-member-img{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+.Our-Team{
+    background-color:rgba(250, 235, 215, 0.39);
+    padding-bottom: 200px;
+}
+.Our-Team-text{
+    padding: 40px;
+    text-align: center;
+}
+.team-member-img{
+    width: auto;
+    height: 200px;
+    border-radius: 50%;
+    padding-left: 40px;
+}
+.team-member-img:hover{
+   background-color: rgba(243, 243, 232, 0.226);
+   width: auto;
+   height: 180px;
+   opacity: .5;
+}
+.team-member-info{
+    text-align: center;
+    padding-top: 20px;
+}
+ /* parallax 3rd part */
+
+ .parallax-3rd-part{
+    background-image: url("images/a.jpg");
+  
+    /* Set a specific height */
+    min-height: 600px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+ .parallax-3rd-p{
+    height:500px;
+    background-color:rgba(17, 16, 16, 0.253);
+    font-size:36px;
+    text-align: center;
+    padding: 350px 30px;
+    color: rgb(233, 230, 227);     
+ }
+
+ /* menu page */
+ .parallax-menu{
+    /* The image used */
+    background-image: url("images/menu_img/photo-1504674900247-0877df9cc836.jpg");
+  
+    /* Set a specific height */
+    min-height: 500px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+.nav-area{
+    padding: 25px 20px;
+    font-family: 'Playball', cursive;
+}
+.nav-img{
+    height: 90px;
+}
+.nav-color a{
+    
+    color: rgb(255, 255, 255);
+    
+}
+.head-text{
+    padding-top: 100px;
+    padding-bottom: 500px;
+    font-family: 'Playball', cursive;
+}
+.head-text-h1{
+    padding-top: 55px;
+    font-size: 65px;
+    color: azure;
+    background-color: #2e9ae205;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 500;
+    line-height: 100%;
+    margin-bottom: 16px;
+}
+.head-text-p{
+    color: azure;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.motion-parallax{
+    /* The image used */
+    background-image: url("images/menu_img/1.png");
+ 
+    /* Set a specific height */
+    min-height: 500px; 
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+ .motion-p{
+    height:500px;
+    background-color:rgba(17, 16, 16, 0.253);
+    font-size:46px;
+    text-align: center;
+    padding: 150px 30px;
+    color: rgb(233, 230, 227);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+ }
+ .parallax-menu{
+    /* The image used */
+    background-image: url("images/menu_img/photo-1504674900247-0877df9cc836.jpg");
+  
+    /* Set a specific height */
+    min-height: 500px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .DESSERT{
+    /* The image used */
+    background-image: url("images/menu_img/istockphoto-1321195604-170667a.jpg");
+  
+    /* Set a specific height */
+    min-height: 500px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .DESSERT-p{
+    height:500px;
+    background-color:rgba(17, 16, 16, 0.253);
+    font-size:36px;
+    text-align: center;
+    padding: 90px 30px;
+    color: rgb(233, 230, 227);
+  }
+
+  .Toro-pie{
+        /* The image used */
+    background-image: url("images/menu_img/2.png");
+  
+    /* Set a specific height */
+    min-height: 500px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+.Toro-pie-p{
+    height:500px;
+    background-color:rgba(17, 16, 16, 0.253);
+    font-size:46px;
+    text-align: center;
+    padding: 150px 30px;
+    color: rgb(233, 230, 227);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.DRINKS{
+    /* The image used */
+background-image: url("images/menu_img/136-1361364_colorful-cocktails-fruits-drinking-glass-with-black-facebook.jpg");
+
+/* Set a specific height */
+min-height: 500px; 
+
+/* Create the parallax scrolling effect */
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.Toro-pie{
+    /* The image used */
+background-image: url("images/menu_img/3.png");
+
+/* Set a specific height */
+min-height: 500px; 
+
+/* Create the parallax scrolling effect */
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.RESERVATION-page{
+        /* The image used */
+background-image: url("images/RESERVATION/33.jpg");
+
+/* Set a specific height */
+min-height: 600px; 
+
+/* Create the parallax scrolling effect */
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+/* form part */
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,600,400italic);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="tel"],
+#contact input[type="url"],
+#contact textarea,
+#contact button[type="submit"] {
+  font: 400 12px/16px "Roboto", Helvetica, Arial, sans-serif;
+}
+
+#contact {
+  background: #F9F9F9;
+  padding: 25px;
+  margin: 150px 0;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+#contact h3 {
+  display: block;
+  font-size: 30px;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+#contact h4 {
+  margin: 5px 0 15px;
+  display: block;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+fieldset {
+  border: medium none !important;
+  margin: 0 0 10px;
+  min-width: 100%;
+  padding: 0;
+  width: 100%;
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="tel"],
+#contact input[type="url"],
+#contact textarea {
+  width: 100%;
+  border: 1px solid #ccc;
+  background: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+}
+
+#contact input[type="text"]:hover,
+#contact input[type="email"]:hover,
+#contact input[type="tel"]:hover,
+#contact input[type="url"]:hover,
+#contact textarea:hover {
+  -webkit-transition: border-color 0.3s ease-in-out;
+  -moz-transition: border-color 0.3s ease-in-out;
+  transition: border-color 0.3s ease-in-out;
+  border: 1px solid #aaa;
+}
+
+#contact textarea {
+  height: 100px;
+  max-width: 100%;
+  resize: none;
+}
+
+#contact button[type="submit"] {
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  background: #4CAF50;
+  color: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+  font-size: 15px;
+}
+
+#contact button[type="submit"]:hover {
+  background: #43A047;
+  -webkit-transition: background 0.3s ease-in-out;
+  -moz-transition: background 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
+}
+
+#contact button[type="submit"]:active {
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.copyright {
+  text-align: center;
+}
+
+#contact input:focus,
+#contact textarea:focus {
+  outline: 0;
+  border: 1px solid #aaa;
+}
+
+::-webkit-input-placeholder {
+  color: #888;
+}
+
+:-moz-placeholder {
+  color: #888;
+}
+
+::-moz-placeholder {
+  color: #888;
+}
+
+:-ms-input-placeholder {
+  color: #888;
+}
+.form-part{
+    text-align: center;
+}
+.form-part-p{
+    padding: 2px 10px;
+    text-align: center;
+}
+/* OUR-SHOP-page */
+.OUR-SHOP-page{
+    background-image: url("images/RESERVATION/21.jpg");
+
+/* Set a specific height */
+min-height: 500px; 
+
+/* Create the parallax scrolling effect */
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+/* text part */
+.text-part{
+    padding-bottom: 100px;
+    padding: 70px 90px;
+    text-align: center;
+}
+/* contact page */
+.contact-page{
+    background-image: url("images/RESERVATION/32.jpg");
+
+    /* Set a specific height */
+    min-height: 500px; 
+    
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contact-info{
+      padding: 90px 10px;
+}
+.map{
+background-image: url("");
+
+/* Set a specific height */
+min-height: 500px; 
+
+/* Create the parallax scrolling effect */
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.map-h2{
+  text-align: center;
+  padding: 70px;
+  margin-bottom: 30px;
+  font-weight: 2100;
+}
+.Journal-page{
+  background-image: url("images/RESERVATION/18.jpg");
+
+/* Set a specific height */
+min-height: 500px; 
+
+/* Create the parallax scrolling effect */
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.Search{
+  padding: 50px;
+  padding-left: 80px;
+  margin-top: 50px;
+}
+/* gallery page */
+.gallery-page{
+background-image: url("images/RESERVATION/4.jpg");
+
+/* Set a specific height */
+min-height: 500px; 
+
+/* Create the parallax scrolling effect */
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+/* gallery part */
+* { box-sizing: border-box; }
+
+/* force scrollbar */
+html { overflow-y: scroll; }
+
+body {
+  font-family: sans-serif;
+}
+
+/* ---- isotope ---- */
+
+.grid {
+  background: #DDD;
+}
+
+/* clear fix */
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/* ---- .grid-item ---- */
+
+.grid-sizer,
+.grid-item {
+  width: 33.333%;
+}
+
+.grid-item {
+  float: left;
+}
+
+.grid-item img {
+  display: block;
+  max-width: 100%;
+}
+
+/* footer */
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+.footer-section {
+background: #151414;
+position: relative;
+}
+.footer-cta {
+border-bottom: 1px solid #373636;
+}
+.single-cta i {
+color: #ff5e14;
+font-size: 30px;
+float: left;
+margin-top: 8px;
+}
+.cta-text {
+padding-left: 15px;
+display: inline-block;
+}
+.cta-text h4 {
+color: #fff;
+font-size: 20px;
+font-weight: 600;
+margin-bottom: 2px;
+}
+.cta-text span {
+color: #757575;
+font-size: 15px;
+}
+.footer-content {
+position: relative;
+z-index: 2;
+}
+.footer-pattern img {
+position: absolute;
+top: 0;
+left: 0;
+height: 330px;
+background-size: cover;
+background-position: 100% 100%;
+}
+.footer-logo {
+margin-bottom: 30px;
+}
+.footer-logo img {
+  max-width: 200px;
+}
+.footer-text p {
+margin-bottom: 14px;
+font-size: 14px;
+    color: #7e7e7e;
+line-height: 28px;
+}
+.footer-social-icon span {
+color: #fff;
+display: block;
+font-size: 20px;
+font-weight: 700;
+font-family: 'Poppins', sans-serif;
+margin-bottom: 20px;
+}
+.footer-social-icon a {
+color: #fff;
+font-size: 16px;
+margin-right: 15px;
+}
+.footer-social-icon i {
+height: 40px;
+width: 40px;
+text-align: center;
+line-height: 38px;
+border-radius: 50%;
+}
+.facebook-bg{
+background: #3B5998;
+}
+.twitter-bg{
+background: #55ACEE;
+}
+.google-bg{
+background: #DD4B39;
+}
+.footer-widget-heading h3 {
+color: #fff;
+font-size: 20px;
+font-weight: 600;
+margin-bottom: 40px;
+position: relative;
+}
+.footer-widget-heading h3::before {
+content: "";
+position: absolute;
+left: 0;
+bottom: -15px;
+height: 2px;
+width: 50px;
+background: #ff5e14;
+}
+.footer-widget ul li {
+display: inline-block;
+float: left;
+width: 50%;
+margin-bottom: 12px;
+}
+.footer-widget ul li a:hover{
+color: #ff5e14;
+}
+.footer-widget ul li a {
+color: #878787;
+text-transform: capitalize;
+}
+.subscribe-form {
+position: relative;
+overflow: hidden;
+}
+.subscribe-form input {
+width: 100%;
+padding: 14px 28px;
+background: #2E2E2E;
+border: 1px solid #2E2E2E;
+color: #fff;
+}
+.subscribe-form button {
+  position: absolute;
+  right: 0;
+  background: #ff5e14;
+  padding: 13px 20px;
+  border: 1px solid #ff5e14;
+  top: 0;
+}
+.subscribe-form button i {
+color: #fff;
+font-size: 22px;
+transform: rotate(-6deg);
+}
+.copyright-area{
+background: #202020;
+padding: 25px 0;
+}
+.copyright-text p {
+margin: 0;
+font-size: 14px;
+color: #878787;
+}
+.copyright-text p a{
+color: #ff5e14;
+}
+.footer-menu li {
+display: inline-block;
+margin-left: 20px;
+}
+.footer-menu li:hover a{
+color: #ff5e14;
+}
+.footer-menu li a {
+font-size: 14px;
+color: #878787;
+}
